@@ -1,0 +1,47 @@
+header h1{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+header ul {
+    padding-left: 2rem;
+    list-style-type: none;
+  }
+  
+header ul li {
+    min-height: 30px;
+    display: flex;
+    padding-left: 2rem;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/009/599/305/non_2x/cute-cat-head-element-png.png);
+    background-position: 0 0;
+    background-size: 1.6rem 1.6rem;
+    background-repeat: no-repeat;
+  }
+.button{
+    background-color: rosybrown;
+    border-radius: 20px;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    bottom: 30px;
+    right: 40px;
+}
+
+@media (max-width: 800px) {
+    body {
+      background-color: lightblue;
+    }
+    footer {
+        background-color: #D9AFD9;
+        background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+        
+    }
+  }
